@@ -1,0 +1,9 @@
+.button1:hover{
+    box-shadow: inset 4px 4px 6px -1px #87857c,
+                inset -4px -4px 6px -1px #141414,
+                -0.5px -0.5px 0px #87857c,
+                0.5px 0.5px 0px #141414,
+                0px 12px 10px -10px #87857c;
+    border: 1px solid rgba(0, 0, 0,0.1);
+    transform: translateY(2px);
+}

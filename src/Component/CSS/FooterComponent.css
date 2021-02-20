@@ -1,0 +1,105 @@
+#button{
+    display: flex;
+    background: #4a4945;
+    height: 75px;
+    width: 75px;
+    margin: 0 10px 10px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 35px;
+    color: whitesmoke;
+    border: 1px solid rgba(0, 0, 0,0.1);
+    box-shadow: 6px 6px 10px -1px #141414,
+                -6px -6px 10px -1px #87857c;
+    transition: transform 0.5s;
+    object-fit: contain;
+}
+#button:hover{
+    box-shadow: inset 4px 4px 6px -1px #141414,
+                inset -4px -4px 6px -1px#87857c,
+                -0.5px -0.5px 0px #141414,
+                0.5px 0.5px 0px #87857c,
+                0px 12px 10px -10px #141414;
+    border: 1px solid rgba(0, 0, 0,0.1);
+    transform: translateY(2px);
+}
+#button1{
+    display: flex;
+    background: #4a4945;
+    height: 75px;
+    width: 75px;
+    margin: 10px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 35px;
+    color: whitesmoke;
+    border: 1px solid rgba(0, 0, 0,0.1);
+    box-shadow: 6px 6px 10px -1px #141414,
+                -6px -6px 10px -1px #87857c;
+    transition: transform 0.5s;
+}
+#button1:hover{
+    box-shadow: inset 4px 4px 6px -1px #141414,
+                inset -4px -4px 6px -1px#87857c,
+                -0.5px -0.5px 0px #141414,
+                0.5px 0.5px 0px #87857c,
+                0px 12px 10px -10px #141414;
+    border: 1px solid rgba(0, 0, 0,0.1);
+    transform: translateY(2px);
+}
+#button2{
+    display: flex;
+    background:#4a4945;
+    height: 75px;
+    width: 75px;
+    margin: 0 10px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 35px;
+    color: whitesmoke;
+    border: 1px solid rgba(0, 0, 0,0.1);
+    box-shadow: 6px 6px 10px -1px #141414,
+                -6px -6px 10px -1px #87857c;
+    transition: transform 0.5s;
+}
+#button2:hover{
+    box-shadow: inset 4px 4px 6px -1px #141414,
+                inset -4px -4px 6px -1px#87857c,
+                -0.5px -0.5px 0px #141414,
+                0.5px 0.5px 0px #87857c,
+                0px 12px 10px -10px #141414;
+    border: 1px solid rgba(0, 0, 0,0.1);
+    transform: translateY(2px);
+}
+#button3{
+    display: flex;
+    background: #4a4945;
+    height: 75px;
+    width: 75px;
+    margin: 0 10px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 35px;
+    color: whitesmoke;
+    border: 1px solid rgba(0, 0, 0,0.1);
+    box-shadow: 6px 6px 10px -1px #141414,
+                -6px -6px 10px -1px #87857c;
+    transition: transform 0.5s;
+}
+#button3:hover{
+    box-shadow: inset 4px 4px 6px -1px #141414,
+                inset -4px -4px 6px -1px#87857c,
+                -0.5px -0.5px 0px #141414,
+                0.5px 0.5px 0px #87857c,
+                0px 12px 10px -10px #141414;
+    border: 1px solid rgba(0, 0, 0,0.1);
+    transform: translateY(2px);
+}
