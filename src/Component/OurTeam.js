@@ -21,7 +21,8 @@ import Proj from '../Component/Common/Project';
 import ourTeamArr from './Common/OurTeamsDetails';
 import { Zoom } from 'react-reveal';
 import FooterComponent from './FooterComponent';
-import A5 from './assets/Photos/A5.jpg';
+import workshop from '../Component/assets/Photos/WEBSITE/workshop2.png';
+//import SHREYASH from '../assets/Photos/WEBSITE/SHREYASH.png';
 const useStyles = makeStyles((theme) => ({
  icon: {
  marginRight: theme.spacing(2),
@@ -45,6 +46,10 @@ const useStyles = makeStyles((theme) => ({
  cardContent: {
  flexGrow: 1,
  },
+ media: {
+    paddingTop: '60%', // 16:9
+    },
+   
 
 }));
 const cards = [1, 2, 3, 4, 5, 6, 7, 8, 9,10,11,12,13,14,15];
@@ -54,22 +59,34 @@ export default function Album() {
         <React.Fragment>
         <CssBaseline />
         <PersistentDrawerLeft />
-        <main style={{backgroundColor:'#4a4945'}}>
+        <main style={{backgroundColor:'#302c2c'}}>
         {/* Hero unit */}
-        <div style={{backgroundColor:'#4a4945'}} className={classes.heroContent}>
+        <div style={{backgroundColor:'#302c2c'}} className={classes.heroContent}>
         <Zoom>
         <Container maxWidth="sm">
-        <Typography style={{color:'white'}} component="h1" variant="h2" align="center"
+        <Typography style={{color:'white'}} fontFamily="monospace" component="h1" variant="h2" align="center"
         color="textPrimary" gutterBottom>
         Our Team
         </Typography>
-        <Typography style={{color:'white'}} variant="h5" align="center" color="textSecondary"
+        <Typography style={{color:'white'}} fontFamily="monospace" variant="h5" align="center" color="textSecondary"
         paragraph>
         "Talent wins games, but teamwork and intelligence win championships." --Michael Jordan.
         </Typography>
 
         </Container>
         </Zoom>
+        <div style={{backgroundColor:'#302c2c'}} className={classes.heroContent}>
+            <Container style={{backgroundColor:'#302c2c'}} >
+            <CardMedia style={{boxShadow: '-9px -9px 15px #87857c , 9px 9px 45px #141414',
+            marginLeft:'40px',marginRight:'40px',marginTop:'25px',marginBottom:'25px',borderRadius:"25px"
+            }}
+            className={classes.media}
+            image={workshop}
+            title="RNXG"
+            />
+
+            </Container>
+            </div>
         </div>
         <Container style={{alignContent:'center' ,alignItems:'center'}} className={classes.cardGrid}
         >
@@ -77,23 +94,23 @@ export default function Album() {
         <Grid justify="center" alignContent="center" container spacing={4}>
         {ourTeamArr.map(e => {
             return(
-                <Grid style={{boxShadow: '-9px -9px 15px #636262 , 9px 9px 45px #303030',
+                <Grid style={{boxShadow: '-9px -9px 15px #636262 , 9px 9px 45px #171717',
 
             marginLeft:'70px',marginRight:'60px',marginTop:'25px',marginBottom:'25px',borderRadius:"25px"
             }} item key={1} xs={12} sm={6} md={4}>
             
-            <Card style={{backgroundColor:'#4a4945'}} className={classes.card}>
+            <Card style={{backgroundColor:'#302c2c'}} className={classes.card}>
                     <CardMedia
                     className={classes.cardMedia}
-                    image="https://source.unsplash.com/random"
+                    image={e.image}
                     title="Image title"
                     >
                     </CardMedia>
                     <CardContent className={classes.cardContent}>
-                    <Typography style={{color:'white'}} gutterBottom variant="h5" component="h2">
+                    <Typography style={{color:'white'}} fontFamily="monospace" gutterBottom variant="h5" component="h2">
                         {e.name}
                     </Typography>
-                    <Typography style={{color:'white'}}>
+                    <Typography style={{color:'white'}} fontFamily="monospace">
                     {e.position}
                     </Typography>
                     <br/>

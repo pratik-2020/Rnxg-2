@@ -1,0 +1,19 @@
+ourTeamArr = [{name:"Aseet Dhale",email:"2018bcs079@sggs.ac.in",linkedin:"https://www.linkedin.com/in/aseet-dhale-90aaa483/",image:"ASEET.png"},
+{name:"Omkar Singh" ,email:"2018bme007@sggs.ac.in",linkedin:"Not available",image:"OMAKR.png"},
+{name:"Harshal Awaghad",email:"harshalawaghadsa7@gmail.com",linkedin:"https://www.linkedin.com/in/harshal-awaghad-a468b7199/",image:"HARSHAL.png"},
+{name:"Abhijeet Jadhav",email:"2018bcs011@sggs.ac.in",linkedin:"www.linkedin.com/in/abhijeetjadhav--",image:"ABHIJEET.png"},
+{name:"Aayush Singh",email:"singh.aayush2703@gmail.com",linkedin:"https://www.linkedin.com/in/aayushsingh2703",image:"AAYUSH.png"},
+{name:"Datta Shekhar Dhore",email:"2018bch011@sggs.ac.in",linkedin:"www.linkedin.com/in/datta-dhore-as",image:"DATTA.png"},
+{name:"Mrunal Joshi",email:"joshimrunal166@gmail.com",linkedin:"https://www.linkedin.com/in/mrunaljoshi",image:"MRUNAL.png"},
+{name:"Shweta Dalal",email:"2017bec023@sggs.ac.in",linkedin:"https://forms.gle/wFYk8wxUSgCa9eTH9",image:"SHWETA.png"},
+{name:"Swaraj Shingote",email:"2017bec082@sggs.ac.in",linkedin:"https://www.linkedin.com/in/swaraj-shingote2601/",image:"SWARAJ.png"},
+{name:"Shubham Santosh Jagtap",email:"2018bec035@sggs.ac.in",linkedin:"https://www.linkedin.com/in/shubham-jagtap-2691a2194/",image:"SHUBHAM,png"},
+{name:"Kshitij Sagar",email:"2017bec014@sggs.ac.in",linkedin:"https://www.linkedin.com/in/kshitij-sagar-4a1154180/",image:"KSHITIJ.png"},
+{name:"Aditya Shete",aemail:"dityashete073@gmail.com",linkedin:"https://www.linkedin.com/in/aditya-shete-2a44a219a",image:"ADITYA.png"},
+{name:"Shreyash Chunarkar",email:"2019bec511@sggs.ac.in",linkedin:"https://www.linkedin.com/in/shreyash-chunarkar-aa03b1162",image:"SHREYASH.png"},
+{name:"Laxmikant Suryavanshi",email:"2017bec094@sggs.ac.in",linkedin:"https://www.linkedin.com/in/laxmikant-suryavanshi/",image:"LAXMIKANT.png"},
+{name:"Yukta Lalitkumar Behare",email:"yuktabehare96@gmail.com",linkedin:"https://www.linkedin.com/in/yukta-behare-70001218b",image:"YUKTA.png"},
+{name:"Shruti Sunil Kulkarni",email:"2018bec016@sggs.ac.in",linkedin:"www.linkedin.com/in/shruti-kulkarni-a2544519a",image:"SHRUTI.png"}
+{name:"Sarang Dondal",email:"2017bec089@sggs.ac.in",linkedin:"https://www.linkedin.com/mwlite/in/sarang-dondal-019354193",image:"SARANG.png"}
+{name:"Ratik Sunil Zade",email:"2018bec099@sggs.ac.in",linkedin:"https://www.linkedin.com/in/ratik-zade-1b889a186",image:"RATIK.png"}
+]

@@ -9,7 +9,24 @@ import Album2 from './Component/Common/ProjectComponent';
 import { Zoom } from 'react-reveal';
 import { createMuiTheme, responsiveFontSizes, ThemeProvider } from '@material-ui/core';
 function App() {
-  var theme = createMuiTheme()
+  var theme = createMuiTheme(
+    {
+      typography: {
+        fontFamily: [
+          '-apple-system',
+          'BlinkMacSystemFont',
+          '"Segoe UI"',
+          'Roboto',
+          '"Helvetica Neue"',
+          'Arial',
+          'sans-serif',
+          '"Apple Color Emoji"',
+          '"Segoe UI Emoji"',
+          '"Segoe UI Symbol"',
+        ].join(','),
+      },
+    }
+  )
   responsiveFontSizes(theme)
   return (
     <BrowserRouter>

@@ -22,15 +22,19 @@ import CastForEducationIcon from '@material-ui/icons/CastForEducation';
 import SchoolIcon from '@material-ui/icons/School';
 import PeopleIcon from '@material-ui/icons/People';
 import EmojiEventsIcon from '@material-ui/icons/EmojiEvents';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import FacebookIcon from '@material-ui/icons/Facebook';
 import "./CSS/Drawer.css"
+import { Container } from '@material-ui/core';
+import InstagramIcon from '@material-ui/icons/Instagram';
 const drawerWidth = 240;
 const useStyles = makeStyles((theme) => ({
     root: {
         display: 'flex',
-        backgroundColor: "#4a4945",
+        backgroundColor: "#302c2c",
     },
     appBar: {
-        backgroundColor: "#4a4945",
+        backgroundColor: "#302c2c",
         transition: theme.transitions.create(['margin', 'width'], {
             easing: theme.transitions.easing.sharp,
             duration: theme.transitions.duration.leavingScreen,
@@ -39,7 +43,7 @@ const useStyles = makeStyles((theme) => ({
     appBarShift: {
         width: `calc(100% - ${drawerWidth}px)`,
         marginLeft: drawerWidth,
-        backgroundColor: "#4a4945",
+        backgroundColor: "#302c2c",
         transition: theme.transitions.create(['margin', 'width'], {
             easing: theme.transitions.easing.easeOut,
             duration: theme.transitions.duration.enteringScreen,
@@ -50,20 +54,20 @@ const useStyles = makeStyles((theme) => ({
     },
     hide: {
         display: 'none',
-        backgroundColor: "#4a4945",
+        backgroundColor: "#302c2c",
     },
     drawer: {
         width: drawerWidth,
         flexShrink: 0,
-        backgroundColor: "#4a4945",
+        backgroundColor: "#302c2c",
     },
     drawerPaper: {
         width: drawerWidth,
-        backgroundColor: "#4a4945",
+        backgroundColor: "#302c2c",
     },
     drawerHeader: {
         display: 'flex',
-        backgroundColor: "#4a4945",
+        backgroundColor: "#302c2c",
         alignItems: 'center',
         padding: theme.spacing(0, 1),
         // necessary for content to be below app bar
@@ -72,7 +76,7 @@ const useStyles = makeStyles((theme) => ({
     },
     content: {
         flexGrow: 1,
-        backgroundColor: "#4a4945",
+        backgroundColor: "#302c2c",
         padding: theme.spacing(3),
         transition: theme.transitions.create('margin', {
             easing: theme.transitions.easing.sharp,
@@ -81,7 +85,7 @@ const useStyles = makeStyles((theme) => ({
         marginLeft: -drawerWidth,
     },
     contentShift: {
-        backgroundColor: "#4a4945",
+        backgroundColor: "#302c2c",
         transition: theme.transitions.create('margin', {
             easing: theme.transitions.easing.easeOut,
             duration: theme.transitions.duration.enteringScreen,
@@ -108,7 +112,7 @@ export default function PersistentDrawerLeft() {
                     [classes.appBarShift]: open,
                 })}
             >
-                <Toolbar style={{ backgroundColor: "#4a4945", boxShadow: '-3px -3px 5px #87857c , 3px 3px 15px #141414' }}>
+                <Toolbar style={{ backgroundColor: "#302c2c", boxShadow: '-3px -3px 5px #87857c , 3px 3px 15px #141414' }}>
                     <IconButton style={{ color: 'white', boxShadow: '-3px -3px 5px #87857c , 3px 3px 15px #141414', padding: '5px', marginLeft: '5px' }}
                         color="inherit"
                         aria-label="open drawer"
@@ -118,7 +122,7 @@ export default function PersistentDrawerLeft() {
                     >
                         <MenuIcon />
                     </IconButton>
-                    <Typography style={{alignItems:"center"}} variant="h6" noWrap>
+                    <Typography style={{alignItems:"center"}} fontFamily="monospace" variant="h5" noWrap>
                         RNXG
                     </Typography>
                 </Toolbar>
@@ -156,13 +160,6 @@ export default function PersistentDrawerLeft() {
                     <ListItem className="button1" style={{
                         color: 'white', borderRadius: "30px", boxShadow: '-3px -3px 5px #87857c , 3px 3px 15px #141414', marginBottom: "25px"
                         , marginTop: "25px", padding: '10px'
-                    }} button key='Our Alunmi' component="a" href="/alumni">
-                        <ListItemIcon style={{ color: 'white' }}><SchoolIcon /></ListItemIcon>
-                        <ListItemText primary='Our Alunmi' />
-                    </ListItem>
-                    <ListItem className="button1" style={{
-                        color: 'white', borderRadius: "30px", boxShadow: '-3px -3px 5px #87857c , 3px 3px 15px #141414', marginBottom: "25px"
-                        , marginTop: "25px", padding: '10px'
                     }} button key='Our Team' component="a" href="/our-teams">
                         <ListItemIcon style={{ color: 'white' }}><PeopleIcon /></ListItemIcon>
                         <ListItemText primary='Our Team' />
@@ -175,7 +172,15 @@ export default function PersistentDrawerLeft() {
                         <ListItemText primary='Rmageddon' />
                     </ListItem>
                 </List>
-                <Divider style={{ color: "white", backgroundColor: '#787878' }} />
+                <Divider style={{ color: "white", backgroundColor: '#787878', marginBottom:'20px' }} />
+                <Container>
+                <a href="https://in.linkedin.com/company/rnxg"><LinkedInIcon style={{fontSize:'40px',color:'#2c618f',boxShadow: '-3px -3px 5px #87857c , 3px 3px 15px #141414',marginLeft:'5px'
+                    ,borderRadius:'25px' ,padding:'5px'}} /></a>
+                    <a href="https://www.instagram.com/sggs_rnxg/"><InstagramIcon style={{fontSize:'40px',color:'#e86fcc',boxShadow: '-3px -3px 5px #87857c , 3px 3px 15px #141414'
+                    ,marginLeft:'25px',borderRadius:'25px' ,padding:'5px'}}/></a>
+                    <a href="https://www.facebook.com/rnxgsggs/"><FacebookIcon style={{fontSize:'40px',color:'#3b5998',boxShadow: '-3px -3px 5px #87857c , 3px 3px 15px #141414'
+                    ,marginLeft:'25px',borderRadius:'25px' ,padding:'5px'}}/></a>
+                </Container>
             </Drawer>
             <main
                 className={clsx(classes.content, {

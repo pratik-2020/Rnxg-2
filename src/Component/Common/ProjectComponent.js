@@ -20,6 +20,7 @@ import { List, ListItem } from '@material-ui/core';
 import PersistentDrawerLeft from '../Drawer';
 import FooterComponent from '../FooterComponent';
 import {  Zoom } from 'react-reveal';
+import Project from '../assets/Photos/Project.jpg';
 const useStyles = makeStyles((theme) => ({
   icon: {
     marginRight: theme.spacing(2),
@@ -75,22 +76,22 @@ export default function Album2() {
     <React.Fragment>
         <Modal isOpen={modal} toggle={toggle} style={{marginTop:"100px"}}>
         <ModalHeader toggle={toggle}>{name}</ModalHeader>
-        <ModalBody>
+        <ModalBody style={{fontFamily:"monospace"}}>
           {descreption}
         </ModalBody>
-        <ModalFooter>
-          <p>Team Members</p>
+        <ModalFooter style={{justifyContent:"left", fontFamily:"monospace"}}>
+          <p>Team Members : </p>
           {team}
         </ModalFooter>
         </Modal>
       <CssBaseline />
       <PersistentDrawerLeft />
-      <main style={{backgroundColor:'#4a4945'}}>
+      <main style={{backgroundColor:'#302c2c'}}>
         {/* Hero unit */}
-        <div className={classes.heroContent}  style={{backgroundColor:'#4a4945', color:'white'}}>
+        <div className={classes.heroContent}  style={{backgroundColor:'#302c2c', color:'white'}}>
           <Zoom>
-          <Container maxWidth="sm" style={{backgroundColor:'#4a4945'}}>
-            <Typography component="h1" variant="h2" align="center" color='white' gutterBottom>
+          <Container maxWidth="sm" style={{backgroundColor:'#302c2c'}}>
+            <Typography component="h1" variant="h1" fontFamily="monospace" align="center" color='white' gutterBottom>
               Project
             </Typography>
           </Container>
@@ -101,11 +102,11 @@ export default function Album2() {
           <Grid container spacing={4}>
               {Proj.map(card => {
                   return(
-                    <Grid item key={card} xs={8} sm={6} md={4} style={{boxShadow: '-9px -9px 15px #636262 , 9px 9px 45px #303030',
+                    <Grid item key={card} xs={8} sm={6} md={4} style={{boxShadow: '-9px -9px 15px #636262 , 9px 9px 45px #171717',
 
                     marginLeft:'70px',marginRight:'60px',marginTop:'25px',marginBottom:'25px',borderRadius:"25px"
                     }}>
-                      <Card className={classes.card} style={{backgroundColor:'#4a4945', color:'whitesmoke'}} onClick={() => {
+                      <Card className={classes.card} style={{backgroundColor:'#302c2c', color:'whitesmoke'}} onClick={() => {
                         toggle()
                         setTeam(card.team)
                         setDescreption(card.description)
@@ -113,11 +114,11 @@ export default function Album2() {
                       }}>
                         <CardMedia
                           className={classes.cardMedia}
-                          image="https://source.unsplash.com/random"
+                          image={Project}
                           title="Image title"
                         />
                         <CardContent className={classes.cardContent}>
-                          <Typography gutterBottom variant="h5" component="h2">
+                          <Typography gutterBottom variant="h5" fontFamily="monospace" component="h2">
                             {card.name}
                           </Typography>
                         </CardContent>
