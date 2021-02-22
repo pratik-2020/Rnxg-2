@@ -85,7 +85,7 @@ export default function Album1() {
 marginLeft:'30px',marginRight:'30px',marginTop:'15px',marginBottom:'15px',borderRadius:"25px"
  }} item  xs={12} sm={60} md={12}>
 <Zoom>
-<Card component="a" href="https://www.instagram.com/p/CLgUWz0l1-g/" style={{backgroundColor:'#302c2c', textDecoration:"none"}} className={classes.card}>
+<Card component="a" href="https://www.instagram.com/tv/CLlS5pJlwRe/?igshid=184lr7a6acx2b" style={{backgroundColor:'#302c2c', textDecoration:"none"}} className={classes.card}>
 
 <CardContent className={classes.cardContent}>
 <Typography style={{fontSize:'25px',color:'#bdbdbd'}}>
