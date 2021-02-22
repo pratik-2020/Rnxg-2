@@ -136,13 +136,12 @@ export default function Pricing() {
                         <Typography style={{ color: '#dedcd7', fontSize: '30px' }} fontFamily="monospace" component="h1" variant="h1"
                             align="center" color="textPrimary" gutterBottom>
                             RMAGEDDON 2020
- </Typography>
+                        </Typography>
                         <Typography style={{ color: '#dedcd7', fontSize: '20px' }} variant="h5" align="center"
                             color="textSecondary" component="p">
                             Lets have a look on RMAGEDDON 2020.
- <br></br>
- Here we organised three events namely Endgame, Civil War, Fast N Follower & conducted various technical workshops and over 40 teams participated in
- these events. Total prize money was <strong style={{ fontSize: "40px" }}><b>30k</b></strong>
+                            <br></br>
+                        Here we organised three events namely Endgame, Civil War, Fast N Follower & conducted various technical workshops. More than 275 participants participated in the events and 400 + students attended the workshops. Total prize money was <strong style={{ fontSize: "40px" }}><b>30k</b></strong>.
                         </Typography>
                     </Container>
                 </Zoom>

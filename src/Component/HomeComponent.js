@@ -94,7 +94,7 @@ Announcement
 
 </Typography>
 <Typography style={{color:'#bdbdbd'}}>
-Teaser  is out!!!!<br></br>
+Video  is out!!!!<br></br>
 Click here!!!
 </Typography>
 </CardContent>

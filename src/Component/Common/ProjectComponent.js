@@ -114,7 +114,7 @@ export default function Album2() {
                       }}>
                         <CardMedia
                           className={classes.cardMedia}
-                          image={Project}
+                          image={card.image}
                           title="Image title"
                         />
                         <CardContent className={classes.cardContent}>
