@@ -8,7 +8,7 @@ import KSHITIJ from '../assets/Photos/WEBSITE/KSHITIJ.png';
 import ASEET from '../assets/Photos/WEBSITE/ASEET.png';
 import ADITYA from '../assets/Photos/WEBSITE/ADITYA.png';
 import AAYUSH from '../assets/Photos/WEBSITE/AAYUSH.png';
-import ABHIJEET from '../assets/Photos/WEBSITE/ABHIJEET.png';
+import ABHIJEET from '../assets/Photos/WEBSITE/Abhijeet.jpeg';
 import HARSHAL from '../assets/Photos/WEBSITE/HARSHAL.png';
 import RATIK from '../assets/Photos/WEBSITE/RATIK.png';
 import OMKAR from '../assets/Photos/WEBSITE/OMKAR.png';
