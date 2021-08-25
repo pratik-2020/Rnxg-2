@@ -8,6 +8,7 @@ import {BrowserRouter, Switch, Route, Redirect} from 'react-router-dom';
 import Album2 from './Component/Common/ProjectComponent';
 import { Zoom } from 'react-reveal';
 import { createMuiTheme, responsiveFontSizes, ThemeProvider } from '@material-ui/core';
+import Technovation from './Component/Technovation';
 function App() {
   var theme = createMuiTheme(
     {
@@ -38,6 +39,7 @@ function App() {
           <Route path="/rmegeddon" component={() => <Pricing />} />
           <Route path="/alumni" component={() => <Album1 />} />
           <Route path="/projects" component={() => <Album2 />} />
+          <Route path="/technovation" component={() => <Technovation />} />
           <Redirect to="/home" />
         </Switch>
     </div>

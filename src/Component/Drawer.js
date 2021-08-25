@@ -22,6 +22,7 @@ import CastForEducationIcon from '@material-ui/icons/CastForEducation';
 import SchoolIcon from '@material-ui/icons/School';
 import PeopleIcon from '@material-ui/icons/People';
 import EmojiEventsIcon from '@material-ui/icons/EmojiEvents';
+import BorderColorIcon from '@material-ui/icons/BorderColor';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import "./CSS/Drawer.css"
@@ -170,6 +171,13 @@ export default function PersistentDrawerLeft() {
                     }} button key='Rmageddon' component="a" href="/rmegeddon">
                         <ListItemIcon style={{ color: 'white' }}><EmojiEventsIcon /></ListItemIcon>
                         <ListItemText primary='Rmageddon' />
+                    </ListItem>
+                    <ListItem className="button1" style={{
+                        color: 'white', borderRadius: "30px", boxShadow: '-3px -3px 5px #87857c , 3px 3px 15px #141414', marginBottom: "25px"
+                        , marginTop: "25px", padding: '10px'
+                    }} button key='Rmageddon' component="a" href="/technovation">
+                        <ListItemIcon style={{ color: 'white' }}><BorderColorIcon /></ListItemIcon>
+                        <ListItemText primary='Technovation' />
                     </ListItem>
                 </List>
                 <Divider style={{ color: "white", backgroundColor: '#787878', marginBottom:'20px' }} />
